@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.header("Salary Prediction App") st.markdown("made by Anas")
+st.header("Salary Prediction App")
+st.markdown("made by Anas")
 st.markdown("Enter your years of experience to predict your potential salary.")
 name = st.text_input("Enter Your Name: ")
 exp = st.selectbox("Enter Your Experience: ",(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30))
