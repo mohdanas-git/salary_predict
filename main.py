@@ -25,3 +25,4 @@ if button:
     st.subheader(f"""
     Hello, {name} you have {exp} year of experience so your salary expect to be {sal} Rs
     """)
+st.markdown("made by mohd anas ansari")
