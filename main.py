@@ -24,5 +24,5 @@ features = np.array([[a]])
 sal = int(model.predict(features))
 if button:
     st.subheader(f"""
-    Hello, {name} you have {exp} year of experience so your salary expect to be {sal} Rs
+    Hello, {name} you have {exp} year of experience so your salary expect to be {sal}.replace('.',',') Rs
     """)
